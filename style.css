@@ -1,0 +1,102 @@
+header {
+    width: 800px;
+    height: 140px;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border: 2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #cbcbcb;
+}
+
+header {
+    background-color: #314982;
+    color: white;
+    text-align: center;
+    font: Helvetica;
+    padding-top: 2%;
+    font-size: 350%;
+    border-radius: 10px;
+
+}
+
+#header {
+    padding-left: 2%;
+    background-color: #315182;
+    color: white;
+    text-align: left;
+    font: Helvetica;
+
+
+}
+
+
+#parameter {
+    border: 2px solid black;
+    border-radius: 5px;
+    min-height: 200px;
+    margin: 10px 20px 20px 10px;
+    font-family: sans-serif;
+    font: strong;
+}
+
+.buttons {
+    padding: 5px;
+}
+
+#SearchButton:hover,
+#ClearButton:hover {
+    outline: 2px solid blue;
+}
+
+
+#results {
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+}
+
+#search {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#records {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#startYear {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#endYear {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+@media (max-width: 900px) {
+    header {
+        width: 100%;
+    }
+    parameter {
+        margin: 10px 50px 50px 10px;
+        padding: 10px 50px 50px 10px;
+    }
+}
+
+@media (max-width: 530px) {
+    header {
+        width: 100%;
+    }
+}
+
+footer {
+    margin-bottom: 5px;
+    border: 1px solid black;
+    text-align: center
+}

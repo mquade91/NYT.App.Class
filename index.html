@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>New York Times</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!---JQuery--->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <header><span class="glyphicons glyphicons-newspaper"></span> New York Times Search</header>
+        <hr style="margin-bottom: 20px">
+
+
+
+        <div id="parameter">
+            <div id="header">
+                Search Parameters
+            </div>
+            Search Term:<br>
+            <input type="text" id="search"><br>Number of Records to Retrieve:<br>
+            <input type="text" id="records"><br> Start Year (Not Optional):<br>
+            <input type="text" id="startYear"><br> End Year (Not Optional):<br>
+            <input type="text" id="endYear"><br>
+            </form>
+
+            <div class="buttons">
+                <button id="SearchButton" type="button" class="btn btn-default btn-sm">
+                  <span class="glyphicon glyphicon-search"></span> Search 
+            </button>
+                <button id="ClearButton" type="button" class="btn btn-default btn-sm">
+              <span class="glyphicon glyphicon-trash"></span> Clear 
+            </button>
+            </div>
+        </div>
+
+
+        <hr style="margin-bottom: 20px">
+
+        <div id="parameter">
+            <div id="header">
+                Top Articles
+            </div>
+            <div id="results">
+
+            </div>
+
+        </div>
+
+        <footer> The Best NYTimes App you've ever used</footer>
+    </body>
+
+    <script type="text/javascript" src="script.js"></script>
+
+</html>
